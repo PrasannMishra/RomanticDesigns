@@ -1,0 +1,69 @@
+  @import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
+
+
+  html {
+      font-size: 62.5%;
+  }
+
+  body {
+      font-size: 1em;
+  }
+
+  @media (max-width: 300px) {
+      html {
+          font-size: 70%;
+      }
+  }
+
+  @media (min-width: 500px) {
+      html {
+          font-size: 80%;
+      }
+  }
+
+  @media (min-width: 700px) {
+      html {
+          font-size: 120%;
+      }
+  }
+
+  @media (min-width: 1200px) {
+      html {
+          font-size: 200%;
+      }
+  }
+
+  button {
+      margin: 10px;
+      font-size: 16px;
+      letter-spacing: 2px;
+      font-weight: 400;
+      color: #fff;
+      padding: 23px 50px;
+      text-align: center;
+      display: inline-block;
+      text-decoration: none;
+      border: 0px;
+      cursor: pointer;
+  }
+
+  .blue {
+      background-color: blue;
+  }
+
+  .green {
+      background-color: rgb(6, 172, 0);
+  }
+
+  .red {
+      background-color: rgb(221, 52, 66);
+  }
+
+  .red:disabled {
+      background-color: rgb(193, 191, 191);
+      cursor: not-allowed;
+  }
+
+  .cart {
+      text-align: center;
+  }
